@@ -1,0 +1,21 @@
+.chartsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.chartWrapper h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-muted);
+}
+
+.empty {
+  padding: 4rem;
+  text-align: center;
+  color: var(--text-muted);
+  background: var(--bg);
+  border-radius: var(--radius);
+  border: 2px dashed var(--border);
+}
